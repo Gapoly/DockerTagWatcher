@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src='https://github.com/user-attachments/assets/19b7eaaf-875e-4b63-96fd-5ee914fa54ae'/>
+    <img href='https://hub.docker.com/' src='https://github.com/user-attachments/assets/19b7eaaf-875e-4b63-96fd-5ee914fa54ae'/>
 </p>
 
 # 🐳 1. What is DockerTagWatcher ?
@@ -50,3 +50,9 @@ You will get prompts for initiating the Poetry environment. You can skip all of 
 ```shell
 poetry add requests schedule smtplib
 ```
+## 📑 4. The configuration
+
+For this script to work, you'll need to modify 2 files :
+
+- SMTP.py
+- docker_list.py

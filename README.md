@@ -52,9 +52,48 @@ You will get prompts for initiating the Poetry environment. You can skip all of 
 ```shell
 poetry add requests schedule smtplib
 ```
-## 📑 4. The configuration
+## ⚙️ 4. The configuration
 
-For this script to work, you'll need to modify these 2 files :
+For this script to work, you'll need to modify these 2 files in dependencies :
 
 - `SMTP.py`
 - `docker_list.py`
+
+### `SMTP.py` :
+
+- You'll have to insert your credentials
+
+```python
+SMTP_SERVER = "smtp.server.com"
+SMTP_PORT = 465  # 465 for SSL/TLS - 587 for STARTTLS
+SENDER_EMAIL = "your_email@domain.com"
+SENDER_PASSWORD = "your_password"
+RECEIVER_EMAILS = [
+    "recipient1@domain.com",
+    "recipient2@domain.com"
+    # Add new addresses
+]
+```
+
+### `docker_list.py` :
+
+- You'll have to put the images you want to follow
+
+```python
+DOCKER_IMAGES = [
+    "library/image1",
+    "library/image2"
+]
+```
+
+Once you've done that. You can now execute the script.
+
+# ✒️ 5. Execution
+
+```shell
+tmux new -s dockertagwatcher
+poetry run python3 dockertagwatcher.py
+```
+- To quit the Tmux terminal without closing it :
+
+`Ctrl + B, Then D`

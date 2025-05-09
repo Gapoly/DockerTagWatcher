@@ -1,5 +1,5 @@
 <p align='center'>
-    <a href='https://hub.docker.com/'>
+    <a href='https://hub.docker.com/' target="_blank" rel="noopener">
         <img src='https://github.com/user-attachments/assets/19b7eaaf-875e-4b63-96fd-5ee914fa54ae'/>
     </a>
 </p>

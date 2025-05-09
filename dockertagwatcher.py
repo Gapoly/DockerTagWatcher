@@ -4,11 +4,10 @@ import schedule
 import time
 import os
 
-from docker_list import DOCKER_IMAGES
-from SMTP import *
+from dependencies.docker_list import DOCKER_IMAGES
+from dependencies.SMTP import *
 
 LAST_VERSIONS_DIR = "last_versions"
-
 
 def get_latest_stable_tag(image):
     """Fetch the latest stable tag for a Docker image from Docker Hub."""

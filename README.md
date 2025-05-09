@@ -54,7 +54,7 @@ poetry add requests schedule smtplib
 ```
 ## 📑 4. The configuration
 
-For this script to work, you'll need to modify 2 files :
+For this script to work, you'll need to modify these 2 files :
 
-- SMTP.py
-- docker_list.py
+- `SMTP.py`
+- `docker_list.py`

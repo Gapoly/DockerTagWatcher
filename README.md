@@ -21,7 +21,6 @@ Those are the basics packages to make the script work. Python
 - Python3
 - Python3-requests
 - Python3-schedule
-- Python3-smtplib
 
 ### Recommended packages :
 
@@ -53,7 +52,7 @@ You will get prompts for initiating the Poetry environment. You can skip all of 
 
 
 ```shell
-poetry add requests schedule smtplib
+poetry add requests schedule
 ```
 ## ⚙️ 4. The configuration
 
@@ -95,6 +94,9 @@ Once you've done that. You can now execute the script.
 
 ```shell
 tmux new -s dockertagwatcher
+```
+
+```shell
 poetry run python3 dockertagwatcher.py
 ```
 - To quit the Tmux terminal without closing it :

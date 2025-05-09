@@ -4,7 +4,9 @@
 # DockerTagWatcher
 Python script that sends a notifcation when an Image from Docker Hub gets a new stable update
 
+# 1. What is DockerTagWatcher ?
 
+DockerTagWatcher is a Python script that watches given images from the Docker Hub and send you a notification by email when a new stable version is released.
 
 
 ## Necessary packages :

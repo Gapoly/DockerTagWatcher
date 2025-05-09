@@ -7,5 +7,5 @@ SENDER_PASSWORD = "your_password"
 RECEIVER_EMAILS = [
     "recipient1@domain.com",
     "recipient2@domain.com"
-    # Ajoutez d'autres adresses ici
+    # Add new addresses
 ]

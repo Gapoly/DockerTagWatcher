@@ -47,7 +47,10 @@ cd DockerTagWatcher
 poetry init
 ```
 
-You will get prompts for initiating the Poetry environment. You can skip all of them by clicking "Enter".
+You will get prompts for initiating the Poetry environment. You can skip all of them by clicking "Enter" :
+
+![image](https://github.com/user-attachments/assets/ba62903b-ffd5-4daf-87e5-ad64d1c5bf52)
+
 
 ```shell
 poetry add requests schedule smtplib

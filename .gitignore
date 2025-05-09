@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 
 auto-commit.sh
+SMTP.py

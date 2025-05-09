@@ -1,5 +1,7 @@
 <p align='center'>
-    <img href='https://hub.docker.com/' src='https://github.com/user-attachments/assets/19b7eaaf-875e-4b63-96fd-5ee914fa54ae'/>
+    <a href='https://hub.docker.com/'>
+        <img src='https://github.com/user-attachments/assets/19b7eaaf-875e-4b63-96fd-5ee914fa54ae'/>
+    </a>
 </p>
 
 # 🐳 1. What is DockerTagWatcher ?

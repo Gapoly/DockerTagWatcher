@@ -174,7 +174,5 @@ cython_debug/
 .pypirc
 
 auto-commit.sh
-SMTP.py
-docker_list.py
 poetry.lock
 pyproject.toml
